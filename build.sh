@@ -16,7 +16,7 @@ MORE_SHIELDS="nice_view_adapter nice_view"
 
 # SNIPPETS="-S zmk-usb-logging"
 
-SNIPPETS="-S studio-rpc-usb-uart"
+SNIPPETS="-S studio-rpc-usb-uart -S zmk-usb-logging"
 
 cd "$WEST_ROOT"
 board="nice_nano_v2"
